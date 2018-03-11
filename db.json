@@ -1,0 +1,124 @@
+{
+  "comments": [
+    {
+      "id": 1,
+      "author": "Alberto",
+      "content": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas , las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
+      "photo": "./assets/img/author.jpg",
+      "email": "adj@indogosa.es",
+      "date": "2018-03-11 15:40"
+    },
+    {
+      "id": 2,
+      "author": "Casero",
+      "content": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas , las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
+      "photo": "./assets/img/casero.jpg",
+      "email": "adj@indogosa.es",
+      "date": "2018-03-10 15:40"
+    },
+    {
+      "id": 3,
+      "author": "Messi",
+      "content": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas , las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
+      "photo": "./assets/img/messi.jpg",
+      "email": "adj@indogosa.es",
+      "date": "2018-03-08 15:40"
+    },
+    {
+      "id": 4,
+      "author": "CR7",
+      "content": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas , las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
+      "photo": "./assets/img/cr7.jpg",
+      "email": "adj@indogosa.es",
+      "date": "2018-03-07 15:40"
+    },
+    {
+      "author": "a",
+      "email": "adj@indogosa.es",
+      "content": "asd asd asd asd ",
+      "photo": "./assets/img/no-photo.jpg",
+      "date": "2018-03-11 15:40",
+      "id": 5
+    },
+    {
+      "author": "aLB",
+      "email": "AD@II.ES",
+      "content": "DDD",
+      "photo": "./assets/img/no-photo.jpg",
+      "date": "2018-03-11T18:00:36.960Z",
+      "id": 6
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "author": "Alberto Jauregui",
+      "photo_author": "./assets/img/author.jpg",
+      "title": "Titulo del Post 1",
+      "photo_post": "./assets/img/img1.jpg",
+      "date": "2018-03-10 15:40",
+      "category": "tecnologia",
+      "excerpt":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non pr"
+    },
+    {
+      "id": 2,
+      "author": "cr7",
+      "photo_author": "./assets/img/cr7.jpg",
+      "title": "Titulo del Post 2",
+      "photo_post": "./assets/img/img2.jpg",
+      "date": "2018-03-11 15:40",
+      "category": "tecnologia",
+      "excerpt":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non pr"
+    },
+    {
+      "id": 3,
+      "author": "Pepito Perez",
+      "photo_author": "./assets/img/no-photo.jpg",
+      "title": "Titulo del Post 3",
+      "photo_post": "./assets/img/img3.jpg",
+      "date": "2018-03-09 15:40",
+      "category": "sociedad",
+      "excerpt":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non pr"
+    },
+    {
+      "id": 4,
+      "author": "Alberto Jauregui",
+      "photo_author": "./assets/img/author.jpg",
+      "title": "Titulo del Post 4",
+      "photo_post": "./assets/img/img4.jpg",
+      "date": "2018-03-08 15:40",
+      "category": "naturaleza",
+      "excerpt":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non pr"
+    },
+    {
+      "id": 5,
+      "author": "Alberto Jauregui",
+      "photo_author": "./assets/img/author.jpg",
+      "title": "Titulo del Post 5",
+      "photo_post": "./assets/img/img5.jpg",
+      "date": "2018-03-11 15:40",
+      "category": "naturaleza",
+      "excerpt":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non pr"
+    },
+    {
+      "id": 6,
+      "author": "Bart Simpson",
+      "photo_author": "./assets/img/no-photo.jpg",
+      "title": "Titulo del Post 6",
+      "photo_post": "./assets/img/img6.jpg",
+      "date": "2018-03-11 20:12",
+      "category": "tecnologia",
+      "excerpt":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non pr"
+    },
+    {
+      "id": 7,
+      "author": "Alberto Casero",
+      "photo_author": "./assets/img/casero.jpg",
+      "title": "Titulo del Post 7",
+      "photo_post": "./assets/img/img7.jpg",
+      "date": "2018-01-05 15:40",
+      "category": "naturaleza",
+      "excerpt":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non pr"
+    }
+  ]
+}

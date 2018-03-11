@@ -1,0 +1,39 @@
+footer{
+	width: 100%;
+	height: 400px;
+	padding: 50px;
+	background-color: $color1;
+	margin-top:80px;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	p.title{
+		text-shadow: 1px 1px 2px black, 0 0 1em $color3-menu, 0 0 0.2em darkblue;
+		display: flex;
+		flex-wrap: wrap;
+		transition: $transition-time all;
+		font-family: 'Permanent Marker','impact';
+		font-size: 1.7rem;
+		-webkit-transform: rotate(-2deg);
+		-moz-transform: rotate(-2deg);
+		margin-top: auto;
+		margin-bottom: auto;
+		@include if-is-medium-device {
+				font-size:3.5rem
+		}
+		&:hover{
+			span.eco{
+				transition: 1s all;
+				color:$color3-menu;
+			}
+		}
+
+	}
+	p.rights{
+		font-size: 0.9rem;
+		color:grey;
+		margin-top: auto;
+	}
+}

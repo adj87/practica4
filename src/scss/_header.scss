@@ -1,0 +1,102 @@
+@import "mixins/responsive-utils";
+
+nav{
+	background-color: $color1;
+	color:white;
+	min-height: 60px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	@include if-is-large-device {
+		align-items:  flex-end;
+	}
+
+	.nav-button-collapse{
+		cursor: pointer;
+		align-self: center;
+		@include if-is-large-device {
+			display: none;
+		}	
+	}
+
+	input[type='checkbox']{
+		display: none;
+		&:checked + ul{
+			
+			display:flex;
+		}
+	}
+
+	ul{
+		transition:$transition-time all;
+		display:none;
+		height: 100%;
+		width:100%;
+		flex-direction: column;
+		justify-content: flex-end;
+		flex-wrap: wrap;
+		@include if-is-large-device {
+			display: flex;
+			flex-direction: row;
+			align-items: flex-end;
+		}
+
+		li{
+	    	text-align: center;
+			position: relative;
+			padding: 20px;
+			transition: $transition-time all;
+
+			&:hover span{
+				height:5px;
+			};
+
+			@include if-is-large-device {
+				width: auto;
+				display: inline-block;
+				padding:20px 12px;
+				/*position: relative;*/
+			}
+			a{
+				/*display: block;*/
+				@include if-is-large-device {
+					padding: 0 20px;
+				}
+			}
+			span{
+				transition: $transition-time all;
+				position: absolute;
+			    left: 0;
+			    bottom: 0;
+			    width: 100%;
+			    height: 0px;
+				&.inicio{
+					background: $color1-menu;
+				}
+				&.actualidad{
+					background: $color2-menu;
+				}
+				&.ocio{
+					background: $color3-menu;
+				}
+				&.naturaleza{
+					background: $color4-menu;
+				}
+			}
+
+		}
+			.inicio{
+				font-family: 'Permanent Marker',serif;
+				font-size: 1.5rem;
+
+			}
+			.center{
+				@include if-is-large-device {
+					margin-right: auto;
+					margin-left: auto
+				}				
+			}
+	}
+}
+
+

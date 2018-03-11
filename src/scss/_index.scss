@@ -1,0 +1,221 @@
+@import "mixins/responsive-utils";
+@import "mixins/text-overflow-ellipsis";
+
+.container{
+	margin-top: 100px !important;
+	@include if-is-extra-large-device {
+	    margin-top: 150px !important;
+	}
+}
+
+.row{
+	margin-right: -5px !important;
+	margin-left:-5px !important;
+}
+
+.list__post{
+	padding:1px !important;
+	height: auto;
+	width: 100%;
+	overflow: hidden;
+	&:hover .post-content-bottom {
+		bottom:50px;
+	}
+	&:hover .post-thumbnail img{
+		object-position: top;
+		transform: scale(1.2);
+		overflow-y: hidden;
+	}
+
+	.post-thumbnail{
+		height:100%;
+		img{
+			width: 100%;
+		    object-fit: cover !important;
+		    transition: $transition-time all;
+		    object-position: center;
+
+		    /*background-size: cover;*/
+			/*display: inline-block;*/
+		    /*vertical-align: top;*/
+		    /*height: auto;*/
+		    /*max-width: 100%;*/
+		    height: 400px;
+			@include if-is-extra-large-device {
+	           	height: 500px
+	       	}		    
+
+
+		}
+	}
+
+
+	.post-content-top{
+		text-transform: capitalize;
+		position: absolute;
+		top:0px;
+		left:0px;
+		padding: 25px 20px;
+		width:100%;
+		height: 100%;
+		flex-direction: column;
+		justify-content: flex-start;
+		font-size: 1.2rem;
+		display: flex;
+		flex-direction: column;
+		align-items:flex-start;
+		justify-content: flex-start;
+		/*background: linear-gradient(to right, #4d18ad, #06ada7);*/
+		/*opacity: 0.5;*/
+		.post-content-top__title{
+			text-shadow: 0px 1px 5px #000000;
+			font-size: 2rem;
+			@include if-is-extra-large-device {
+	           	font-size:2.5rem;
+	       	}
+
+		}
+
+		.post-content-top__category{
+			padding:5px;
+			display: inline;
+			font-size: .8rem;
+			background-color: $color1;
+			border:1px solid $color3;
+		}
+
+		.post-content-top__meta{
+			display: flex;
+			flex-wrap: wrap;
+			background-color: $color4;
+			font-size:0.8rem;
+			margin-left: 10px;
+			padding: 10px 10px;
+			border-radius: 5px
+		}
+
+	}
+
+	.post-content-bottom{
+		position: absolute;
+		bottom:-150px;
+		padding: 15px;
+		width: 100%;
+		font-family: inherit;
+		transition: $transition-time all;
+		height: 80px;
+		.text {
+			/*color:black;*/
+			/*height: 100%;*/
+			/*width: 100%;*/
+			@include text-overflow-ellipsis;
+		}
+
+		.post-meta{
+			margin-bottom: 10px
+		}
+
+		.fa-thumbs-up{
+			color:$color2;
+		}
+
+		.like{
+			background-color: $background-color;
+			border-radius: 100%;
+			padding: 12px !important;
+			/*border-width: 100%;*/
+			padding: 5px 5px 10px 5px;
+			cursor: pointer;
+			transition: $transition-time all;
+			float: right;
+		}	
+
+	}
+}
+
+.list__post-details{
+	padding:1px !important;
+	height: auto;
+	width: 100%;
+	overflow: hidden;
+
+	.post-info{
+		padding: 10px;
+		background-color: $color1;
+		width: 100%;
+		height: 100%;
+		padding: 15px;
+		display: flex;
+		flex-direction: column;
+		/*align-items: flex-start;*/
+		/*flex-wrap: wrap;*/
+		@include if-is-extra-large-device {
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+
+
+		.post-info__author-thumbnail{
+			padding: 5px;
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			/*justify-content: flex-end;*/
+			/*justify-content: space-between;*/
+
+			.post-info__author-name{
+				font-style: italic;
+				color:$color6;
+				text-shadow: 2px -1px 11px #B0F4FF;
+				text-align: center;
+			}
+
+			img{
+				margin-right:10px;
+				width:25px;
+				border-radius: 100%;
+				@include if-is-extra-large-device {
+					/*width: 50%;*/
+				}
+			}
+			@include if-is-extra-large-device {
+				justify-content: flex-start;
+				align-self: center;
+				flex:1;
+			}
+
+		}
+
+		.post-info__others{
+			display: flex;
+			flex-direction: column;
+			justify-content:  center;
+			/*height: 100%;*/
+			padding: 5px;
+			flex-wrap: wrap;
+
+
+
+
+			.post-info__comments{
+				font-style: italic;
+				color:$color4;
+				align-self: flex-end;
+				/*cursor:pointer;*/
+			}
+
+		}
+	}
+}
+
+.pagination{
+	width:50% !important;
+	background-color: $color1;
+	display: flex;
+	border-radius: 5px;
+
+	li{
+		padding:10px
+	}
+}
